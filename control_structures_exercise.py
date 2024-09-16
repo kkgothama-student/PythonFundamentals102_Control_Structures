@@ -5,6 +5,10 @@ In this exercise, you will use conditional statements to categorise people based
 
 # 1. Ask the user for their age as input and convert it to an integer.
 user_age_str = "Enter your age: "
+ age = int input("28")
+age = age + 1 
+    print("28" +str(age)+ year old)
+
 # Convert the user_age_str to an integer
 
 # Convert the user_age_str to an integer
