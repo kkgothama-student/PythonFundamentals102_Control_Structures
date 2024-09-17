@@ -5,18 +5,23 @@ In this exercise, you will use conditional statements to categorise people based
 
 # 1. Ask the user for their age as input and convert it to an integer.
 user_age_str = "Enter your age: "
- age = int input("28")
-age = age + 1 
-    print("28" +str(age)+ year old)
-
+user_age = input("enter your age(as integer):")
 # Convert the user_age_str to an integer
+
 
 # Convert the user_age_str to an integer
 user_age_int = int(user_age_str)
+user_age =int(user_age)
 # 2. Use conditional statements to categorise the user into one of the following categories:
 # - If age is less than 18, print "You are a minor."
 # - If age is between 18 and 65 (inclusive), print "You are an adult."
 # - If age is 66 or higher, print "You are a senior citizen."
+if user_age<18:
+    print("you are a minor.")
+elif 18<=user_age<=65:
+    print("you are an adult")
+else:
+    print("you are a adult")  
 
 
 """ 
@@ -82,6 +87,7 @@ multiplier_str = "Enter a number as the multiplier: "
 for number_x in range(1, 11):
     for number_y in range(1):
         # Add code to print the multiplication table
-        
+        print(multiplier_str)
         pass
     pass
+ 
