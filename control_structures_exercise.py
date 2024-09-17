@@ -30,6 +30,11 @@ In this exercise, you will use conditional statements to check if a year is a le
 """
 
 year = 0000
+if year % 4 == 0:
+    print(year,"is a leap year")
+else :
+    print(year,"is not a leap year")
+
 
 
 
